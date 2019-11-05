@@ -5,7 +5,7 @@
 #define S2 6
 #define S3 7
 #define sensorOut 8
-#define led = 12
+#define antwoordLED 12
 
 /*
 Rood: S2 Low, S3 LOW
@@ -67,7 +67,7 @@ void loop() {
 if(Rood == roodAntwoord){
   if(Groen == groenAntwoord){
     if(Blauw == blauwAntwoord){
-      digitalWrite(led, HIGH);
+      digitalWrite(antwoordLED, HIGH);
 
     }
   }
